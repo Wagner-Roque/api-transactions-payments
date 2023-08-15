@@ -1,6 +1,6 @@
 package com.wagner.payment.apipayment.repositories;
 
-import com.wagner.payment.apipayment.user.UserEntity;
+import com.wagner.payment.apipayment.domain.user.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
