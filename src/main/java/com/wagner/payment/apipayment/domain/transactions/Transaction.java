@@ -1,6 +1,6 @@
-package com.wagner.payment.apipayment.domain.transaction;
+package com.wagner.payment.apipayment.domain.transactions;
 
-import com.wagner.payment.apipayment.user.UserEntity;
+import com.wagner.payment.apipayment.domain.user.UserEntity;
 import jakarta.persistence.*;
 import lombok.*;
 

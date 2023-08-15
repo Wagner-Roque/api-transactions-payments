@@ -1,5 +1,6 @@
-package com.wagner.payment.apipayment.user;
+package com.wagner.payment.apipayment.domain.user;
 
+import com.wagner.payment.apipayment.dtos.UserDTO;
 import com.wagner.payment.apipayment.enumerator.UserType;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -33,4 +34,14 @@ public class UserEntity {
     @Enumerated(EnumType.STRING)
     private UserType userType;
 
+    public UserEntity(UserDTO data) {
+        this.firstName = data.firstName();
+        this.lastName = data.lastName();
+        this.document = data.document();
+        this.balance = data.balance();
+        this.userType = data.userType();
+        this.password = data.password();
+        this.email = data.email();
+
+    }
 }
