@@ -1,4 +1,4 @@
-package com.wagner.payment.apipayment.repository;
+package com.wagner.payment.apipayment.repositories;
 
 import com.wagner.payment.apipayment.user.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
