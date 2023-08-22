@@ -1,4 +1,4 @@
-package com.wagner.payment.apipayment.infra.security;
+package com.wagner.payment.apipayment.service;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
